@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>My Ticket</p>
+    <p>My Tickets</p>
   </div>
 </template>

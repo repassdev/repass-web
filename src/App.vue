@@ -16,7 +16,6 @@
           flat
           v-for="item in menuItems"
           :key="item.title"
-          router
           :to="item.link"
         >
           <v-icon left>{{ item.icon }}</v-icon>
@@ -25,12 +24,11 @@
       </v-toolbar-items>
     </v-toolbar>
 
-    <v-navigation-drawer v-model="sideNav" class="hidden-sm-and-up">
+    <v-navigation-drawer absolute temporary v-model="sideNav" class="hidden-sm-and-up">
       <v-list>
         <v-list-tile 
           v-for="item in menuItems" 
           :key="item.title"
-          router
           :to="item.link"
         >
           <v-list-tile-action>
