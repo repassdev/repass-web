@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>Home LALALALA</p>
+    <p>Home LALALALA teste 2</p>
   </div>
 </template>
